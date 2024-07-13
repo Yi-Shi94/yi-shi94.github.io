@@ -3,11 +3,11 @@ papers:
 - title: "Interactive Character Control with Auto-Regressive Motion Diffusion Models"
   authors: "Yi Shi, Jingbo Wang, Xuekun Jiang, Bingkun Lin, Bo Dai, Xue Bin Peng"
   venue: "ACM Transactions on Graphics (Proceedings of SIGGRAPH 2024)"
-  paper_pdf: "https://yi-shi94.github.io/amdm_page/"
-  page: "https://yi-shi94.github.io/amdm_page/"
+  paper_pdf: "https://xbpeng.github.io/projects/AMDM/AMDM_2024.pdf"
+  page: "https://xbpeng.github.io/projects/AMDM/index.html"
   video: "https://www.youtube.com/watch?v=5WE9hy0xCI4&ab_channel=YISHI"
   code: "https://github.com/Yi-Shi94/AMDM"
-  demo: "https://github.com/Yi-Shi94/AMDM"
+  demo: "https://yi-shi94.github.io/amdm_page/"
   teaser: "/assets/teasers/2024_amdm.jpg"
   selected: y
 

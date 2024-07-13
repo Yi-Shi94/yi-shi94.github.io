@@ -6,18 +6,16 @@ title: Home
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
   <p>
-  My research interests are deep learning, generative models and computer graphics, aiming to provide a better understanding of <b>human motions</b> while bringing AI to the applications in 3D animation production pipeline. 
-  My recent work has focused on motion generation 
-  [<a href="assets/publications/2022_newsbridge/paper.pdf" target="_blank">SIGGRAPH 2024 / TOG</a>,
-  My previous research also covers 3D computer Vision and NLP.
+    My research interests lie in deep learning, generative models, and computer graphics. I aim to enhance the understanding of human motions and integrate AI into the 3D animation production pipeline. 
+    My recent work has focused on both kinematic and physically based motion generation.
+    My recent work has concentrated on both kinematic and physically-based motion generation.
   </p>
 
   <p>
   I'm a PhD student at Simon Fraser University, advised by Professor <a href="https://xbpeng.github.io/" target="_blank">Xue Bin Peng</a>.
   Before joining SFU, I worked at Shanghai AI Lab with <a href="https://wangjingbo1219.github.io/" target="_blank">Jingbo Wang</a>, and XMOV with Congyi Wang.  
   I received my M.Sc. from NYU in 2020 under the supervision of <a href=https://nyuad.nyu.edu/en/academics/divisions/engineering/faculty/yi-fang.html target="_blank">Yi Fang</a>. 
-  I got dual B.Sc. from Tongji University and Politecnico di Torino.  
-  I have traveled a lot before Covid, and look forward to doing so again in the coming years. 
+  I received dual B.Sc. from Tongji University and Politecnico di Torino.  
   </p> 
 </div>
 
@@ -31,7 +29,7 @@ title: Home
   </p>
 
   <ul class="tab-nav">
-    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
+    <li><div class="button active" data-ref="#papers-selected">Recent</div></li>
     <li><div class="button" data-ref="#papers-all">All</div></li>
   </ul>
 
@@ -47,6 +45,10 @@ title: Home
             {% if paper.paper_pdf %}
               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
             {% endif %}
+            
+            {% if paper.page %}
+              <a class="button" href="{{ paper.page }}" target="_blank">Page</a>
+            {% endif %}
 
             {% if paper.slides %}
               <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
@@ -66,6 +68,19 @@ title: Home
 
             {% if paper.data %}
               <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+            
+
+            {% if paper.demo %}
+              <a class="button" href="{{ paper.demo}}" target="_blank">Demo</a>
+            {% endif %}
+            
+
+            {% if paper.teaser %}
+            <br/>
+            <img src="{{ paper.teaser | prepend: site.baseurl }}" alt="Teaser" style="width:300px;height:200px;">
+            <hr style="width:90%;text-align:left;margin-left:0">
+           
             {% endif %}
 
           </div>
@@ -81,8 +96,14 @@ title: Home
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
             {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
             {% endif %}
+            
+            
+            {% if paper.page %}
+              <a class="button" href="{{ paper.code}}" target="_blank">Page</a>
+            {% endif %}
+
 
             {% if paper.slides %}
               <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
@@ -104,6 +125,17 @@ title: Home
               <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
             {% endif %}
 
+            
+            {% if paper.demo %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Demo</a>
+            {% endif %}
+
+            {% if paper.teaser %}
+              <br/>
+              <img src="{{ paper.teaser | prepend: site.baseurl }}" alt="Teaser" style="width:300px;height:200px;">
+              <hr style="width:90%;text-align:left;margin-left:0">
+              
+            {% endif %}
           </div>
         </div>
       {% endfor %}
@@ -190,7 +222,7 @@ title: Home
 <div class="docs-section" id="resume">
   <h4>Vitæ</h4>
 
-  <p>Full Resume in <a href={{ "/assets/cv/cv_web.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
+  <p>Full Resume: <a href="https://www.linkedin.com/in/shiyi3/" target="_blank">LinkedIn</a>.</p>
 
   <!-- The Timeline -->
   <ul class="timeline">
@@ -214,15 +246,8 @@ title: Home
 
 <div class="docs-section" id="template">
   <h4>Website Design</h4>
-  Since I made this website, many people have found this Jekyll template useful [
-  {% for template_user in site.data.template_users.template_users %}
-  <a href="{{ template_user }}" target="_blank">{{ forloop.index }}</a>{% if forloop.last %}{% else %},{% endif %}
-  {% endfor %}
-  ].
+  Martin Saveski made this template. Refer to his website and github for more details.
   <!--<br/>-->
-  You can find all the code needed to build your website in this <a href="https://github.com/msaveski/www_personal" target="_blank">GitHub repo</a>.
-  Feel free to use it. <br/>
-
-  If you end up using it, please link to here and drop me an email.
-  I'm always happy to see people using it.
+  You can find all the code needed to build the website in this <a href="https://github.com/msaveski/www_personal" target="_blank">GitHub repo</a>.
+  <br/>
 </div>  

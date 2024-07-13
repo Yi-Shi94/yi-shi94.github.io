@@ -3,6 +3,3 @@ destination: ./_site
 includes:    ./_includes
 baseurl: /yi
 
-collections:
-  projects:
-    output: true

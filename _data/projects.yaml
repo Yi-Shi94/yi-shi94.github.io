@@ -1,6 +1,18 @@
 projects:
   - title: "A-MDM"
     subtitle: "Research"
-    thumbnail: "assets/projects/2016_network-ab/thumbnail.jpg"
-    url: "projects/2016_network-ab-testing.html"
+    thumbnail: "assets/projects/2024_amdm/teaser.jpg"
+    url: "https://yi-shi94.github.io/amdm_page/"
     selected: y
+
+  - title: "SemiPPL"
+    subtitle: "Research"
+    thumbnail: "assets/projects/2021_semippl/teaser.png"
+    url: "https://github.com/PaperMechanica/SemiPPL"
+    selected: n
+
+  - title: "DeepShape"
+    subtitle: "Research"
+    thumbnail: "assets/projects/2020_deepshape/teaser.jpg"
+    url: "https://github.com/PaperMechanica/SemiPPL"
+    selected: n

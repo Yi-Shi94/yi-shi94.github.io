@@ -1,7 +1,32 @@
 papers:
 
-  - title: "Interactive Character Control with Auto-Regressive Motion Diffusion Models"
-    authors: "Yi Shi, Jingbo Wang, Xuekun Jiang, Bingkun Lin, Bo Dai, Xue Bin Peng"
-    venue: "SIGGRAPH'24/TOG"
-    paper_pdf: "/assets/publications/2024_amdm/paper.pdf"
-    selected: y
+- title: "Interactive Character Control with Auto-Regressive Motion Diffusion Models"
+  authors: "Yi Shi, Jingbo Wang, Xuekun Jiang, Bingkun Lin, Bo Dai, Xue Bin Peng"
+  venue: "SIGGRAPH'24/TOG"
+  paper_pdf: "https://yi-shi94.github.io/amdm_page/"
+  page: "https://yi-shi94.github.io/amdm_page/"
+  video: "https://www.youtube.com/watch?v=5WE9hy0xCI4&ab_channel=YISHI"
+  code: "https://github.com/Yi-Shi94/AMDM"
+  demo: "https://github.com/Yi-Shi94/AMDM"
+  teaser: "/assets/teasers/2024_amdm.jpg"
+  selected: y
+
+- title: "Polyphone Disambiguation in Mandarin Chinese with Semi-Supervised Learning"
+  authors: "Yi Shi, Congyi Wang, Yu Chen, Bin Wang"
+  venue: "Interspeech 2021"
+  paper_pdf: "https://www.isca-archive.org/interspeech_2021/shi21d_interspeech.html"
+  page: "https://github.com/PaperMechanica/SemiPPL"
+  video: "https://www.youtube.com/watch?v=sf779Tv-DgM&ab_channel=INTERSPEECH2021"
+  code: "https://github.com/PaperMechanica/SemiPPL"
+  teaser: "/assets/teasers/2021_semippl.png"
+  selected: n
+
+- title: " Unsupervised-Deep-Shape-Descriptor-with-Point-Distribution-Learning "
+  authors: "Yi Shi, Mengchen Xu, Shuaihang Yuan, Yi Fang"
+  venue: "CVPR 2020"
+  paper_pdf: "https://openaccess.thecvf.com/content_CVPR_2020/papers/Shi_Unsupervised_Deep_Shape_Descriptor_With_Point_Distribution_Learning_CVPR_2020_paper.pdf"
+  page: "https://github.com/Yi-Shi94/Unsupervised-Deep-Shape-Descriptor-with-Point-Distribution-Learning"
+  code: "https://github.com/Yi-Shi94/Unsupervised-Deep-Shape-Descriptor-with-Point-Distribution-Learning"
+  teaser: "/assets/teasers/2020_deepshape.jpg"
+  selected: n
+

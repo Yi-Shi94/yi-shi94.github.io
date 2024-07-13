@@ -1,0 +1,6 @@
+projects:
+  - title: "A-MDM"
+    subtitle: "Research"
+    thumbnail: "assets/projects/2016_network-ab/thumbnail.jpg"
+    url: "projects/2016_network-ab-testing.html"
+    selected: y

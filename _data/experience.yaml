@@ -1,8 +1,37 @@
 experiences:
 
-- place: "SFU"
+- place: "Simon Fraser University"
   time: "now"
   title: "PhD Student"
   subtitle: "Gruvi Lab"
   category: "study"
 
+- place: "Shanghai AI Lab"
+  time: "2022-2023"
+  title: "Research Intern"
+  subtitle: "Research Group on Intelligent Digital Creation"
+  category: "work"
+
+- place: "Xmov"
+  time: "2020-2022"
+  title: "Machine Learning Engineer"
+  subtitle: "Digital Human"
+  category: "work"
+
+- place: "NYU"
+  time: "2018-2020"
+  title: "Research Assistant"
+  subtitle: "MMVC Lab"
+  category: "work"
+
+- place: "Politecnico di Torino"
+  time: "2013-2017"
+  title: "Research Assistant"
+  subtitle: "B.Sc. Computer Engineering"
+  category: "study"
+
+- place: "Tongji University"
+  time: "2013-2017"
+  title: "Research Assistant"
+  subtitle: "B.Eng. Electrical Engineering"
+  category: "study"

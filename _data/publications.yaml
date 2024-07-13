@@ -1,7 +1,7 @@
 papers:
 
-  - title: "Embedding Societal Values into Social Media Algorithms"
-    authors: "Michael Bernstein, Angèle Christin, Jeffrey Hancock, Tatsunori Hashimoto, Chenyan Jia, Michelle S. Lam, Nicole Meister, Nathaniel Persily, Tiziano Piccardi, <b>Martin Saveski</b>, Jeanne Tsai, Johan Ugander, Chunchen Xu"
-    venue: "JOTS'23: Journal of Online Trust and Safety. 2023."
-    paper_pdf: "/assets/publications/2023_embedding_societal_values/paper.pdf"
+  - title: "Interactive Character Control with Auto-Regressive Motion Diffusion Models"
+    authors: "Yi Shi, Jingbo Wang, Xuekun Jiang, Bingkun Lin, Bo Dai, Xue Bin Peng"
+    venue: "SIGGRAPH'24/TOG"
+    paper_pdf: "/assets/publications/2024_amdm/paper.pdf"
     selected: y

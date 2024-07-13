@@ -3,13 +3,13 @@ experiences:
 - place: "Simon Fraser University"
   time: "now"
   title: "PhD Student"
-  subtitle: "Gruvi Lab"
+  subtitle: "Gruvi Lab; Mellow Group (Led by Xue Bin Peng) "
   category: "study"
 
 - place: "Shanghai AI Lab"
   time: "2022-2023"
   title: "Research Intern"
-  subtitle: "Research Group on Intelligent Digital Creation"
+  subtitle: "Research Group on Intelligent Digital Creation (Led by Dai Bo)"
   category: "work"
 
 - place: "Xmov Inc" 
@@ -21,7 +21,7 @@ experiences:
 - place: "New York University"
   time: "2018-2020"
   title: "Research Assistant"
-  subtitle: "MMVC Lab"
+  subtitle: "MMVC Lab (Led by Yi Fang)"
   category: "work"
 
 - place: "Politecnico di Torino"

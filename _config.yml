@@ -1,5 +1,7 @@
 source:      .
 destination: ./_site
 includes:    ./_includes
-baseurl: "me"
+baseurl: /
+url: http://Yi-Shi94.github.io
+
 

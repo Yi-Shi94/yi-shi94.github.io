@@ -1,5 +1,5 @@
 source:      .
 destination: ./_site
 includes:    ./_includes
-baseurl: /yi
+baseurl: "personal_web"
 

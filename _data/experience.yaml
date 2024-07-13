@@ -12,13 +12,13 @@ experiences:
   subtitle: "Research Group on Intelligent Digital Creation"
   category: "work"
 
-- place: "Xmov"
+- place: "Xmov Inc" 
   time: "2020-2022"
   title: "Machine Learning Engineer"
   subtitle: "Digital Human"
   category: "work"
 
-- place: "NYU"
+- place: "New York University"
   time: "2018-2020"
   title: "Research Assistant"
   subtitle: "MMVC Lab"
@@ -26,12 +26,10 @@ experiences:
 
 - place: "Politecnico di Torino"
   time: "2013-2017"
-  title: "Research Assistant"
   subtitle: "B.Sc. Computer Engineering"
   category: "study"
 
 - place: "Tongji University"
   time: "2013-2017"
-  title: "Research Assistant"
   subtitle: "B.Eng. Electrical Engineering"
   category: "study"

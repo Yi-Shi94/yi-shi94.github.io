@@ -1,4 +1,10 @@
 projects:
+  - title: "PARC"
+    subtitle: "Research"
+    thumbnail: "assets/projects/2024_parc/teaser.jpg"
+    url: "https://michaelx.io/parc/index.html"
+    selected: y
+
   - title: "A-MDM"
     subtitle: "Research"
     thumbnail: "assets/projects/2024_amdm/teaser.jpg"

@@ -1,4 +1,14 @@
 papers:
+- title: "PARC: Physics-based Augmentation with Reinforcement Learning for Character Controllers"
+  authors: "Michael Xu, Yi Shi, KangKang Yin, Xue Bin Peng"
+  venue: "SIGGRAPH 2025"
+  paper_pdf: https://michaelx.io/parc/index.html"
+  page: "https://michaelx.io/parc/index.html"
+  video: "https://michaelx.io/parc/index.html"
+  code: "https://michaelx.io/parc/index.html"
+  demo: "https://michaelx.io/parc/index.html"
+  teaser: "/assets/teasers/2025_parc.png"
+  selected: y
 
 - title: "Interactive Character Control with Auto-Regressive Motion Diffusion Models"
   authors: "Yi Shi, Jingbo Wang, Xuekun Jiang, Bingkun Lin, Bo Dai, Xue Bin Peng"

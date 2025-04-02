@@ -7,7 +7,7 @@ papers:
   video: "https://michaelx.io/parc/index.html"
   code: "https://michaelx.io/parc/index.html"
   demo: "https://michaelx.io/parc/index.html"
-  teaser: "/assets/teasers/output.gif"
+  teaser: "/assets/teasers/2025_parc.gif"
   selected: y
 
 - title: "Interactive Character Control with Auto-Regressive Motion Diffusion Models"
